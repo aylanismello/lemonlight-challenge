@@ -4,7 +4,7 @@
   align-items: baseline;
 }
 
-.MainContent-Header-Link {
+.MainContent-Header-Link a{
   color: gray;
   padding-right: 1rem;
 }
