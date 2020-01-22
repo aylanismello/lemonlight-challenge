@@ -3,7 +3,33 @@
   color: white;
   position: fixed;
   top: 70px;
-  width: 300px;
+  width: 260px;
   height: 100%;
   left: 0;
+  padding: 20px;
+  /* padding: 2rem 2rem; */
+}
+
+.Sidebar-Section {
+  margin-bottom: 2rem;
+}
+
+.Sidebar-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Sidebar-Header:hover {
+  cursor: pointer;
+
+}
+
+.Sidebar-Header-Text {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.SideBar-Arrow:hover {
+  /* cursor: pointer; */
 }
