@@ -22,7 +22,6 @@
 
 .Sidebar-Header:hover {
   cursor: pointer;
-
 }
 
 .Sidebar-Header-Text {
@@ -30,6 +29,16 @@
   font-weight: 400;
 }
 
-.SideBar-Arrow:hover {
-  /* cursor: pointer; */
+.Sidebar-Link-Container {
+  padding-bottom: 1rem;
+}
+
+a.Sidebar-Link {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a.Sidebar-Link:hover {
+  cursor: pointer;
 }
