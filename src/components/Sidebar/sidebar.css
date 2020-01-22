@@ -1,0 +1,9 @@
+.Sidebar {
+  background-color: #222222;
+  color: white;
+  position: fixed;
+  top: 70px;
+  width: 300px;
+  height: 100%;
+  left: 0;
+}

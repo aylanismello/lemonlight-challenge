@@ -1,0 +1,26 @@
+/* 
+.Header {
+  background: white;
+  /* margin: 0 auto; */
+  /* border: 2px solid green; */
+  /* padding: 5em 10rem 2em 10rem; */
+/* } */ 
+
+.Header {
+  height: 70px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  background: white;
+  /* margin-bottom: 70px; */
+}
+
+.Header-LogoContainer {
+  width: 300px;
+}
+
+.Header-Logo {
+  width: 100%;
+  height: auto;
+}
+
