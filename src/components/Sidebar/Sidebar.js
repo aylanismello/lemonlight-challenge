@@ -22,7 +22,7 @@ const SidebarSection = ({ title, options, open, onSelect, page }) => (
                   to={`/${option}`}
                   style={page === option ? { fontWeight: "bold" } : {}}
                 >
-                  Link {option}
+                  Page {option}
                 </Link>
               </div>
             ))}

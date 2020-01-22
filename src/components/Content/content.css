@@ -1,4 +1,17 @@
+.MainContent-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
 
+.MainContent-Header-Link {
+  color: gray;
+  padding-right: 1rem;
+}
+
+.MainContent-Header-Link:hover {
+  cursor: pointer;
+}
 
 .MainContent-Container {
   background: #eaeaea;
@@ -7,7 +20,5 @@
 }
 .Content {
   background: white;
-  /* margin: 0 auto; */
-  /* border: 2px solid green; */
   padding: 5em 10rem 2em 10rem;
 }

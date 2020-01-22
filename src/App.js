@@ -45,6 +45,10 @@ function App() {
               <Sidebar page={6} />
               <Content page={6} />
             </Route>
+            <Route path="*">
+              <Sidebar page="404" />
+              <Content page="404!" />
+            </Route>
           </Switch>
         </div>
         <Footer />

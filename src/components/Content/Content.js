@@ -1,15 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./content.css";
 
 export default ({ pageHeader, page }) => {
   let finalHeader = pageHeader;
+  const nextPage = (page !== 'home' && page < 6) ? (page + 1) : null;
 
-  if(!finalHeader) finalHeader = `Section ${page < 4 ? 1 : 2} / Page ${page}`;
-
+  if (!finalHeader) finalHeader = `Section ${page < 4 ? 1 : 2} / Page ${page}`;
+  
   return (
     <div className="MainContent-Container">
       <main className="Content">
-        <h1>{finalHeader}</h1>
+        <div className="MainContent-Header">
+          <h1>{finalHeader}</h1>
+          {nextPage && (
+            <div className="MainContent-Header-Link">
+              <Link to={`/${nextPage}`}>go to next page</Link>
+            </div>
+          )}
+        </div>
         <div>
           <h3>
             {" "}
