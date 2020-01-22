@@ -1,11 +1,11 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
-import ScrollToTop from './ScrollToTop';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import ScrollToTop from './helpers/ScrollToTop';
 
 import "./App.css";
 

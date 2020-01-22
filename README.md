@@ -6,3 +6,5 @@ This simple layout was designed on Figma, with a live link [here](https://www.fi
 ![alt text](https://res.cloudinary.com/burncartel/image/upload/v1579653594/professional%20stuff/lemonlight_mockup.png)
 
 
+## Notes:
+I didn't take the time to make the site responsive or use a CSS preprocessor, or do anything besides the core basics since that's how I understood the directions to be. Enjoy!
